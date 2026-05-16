@@ -1,0 +1,28 @@
+# Mix
+_build/
+deps/
+doc/
+*.ez
+
+# Generated
+cover/
+lcov.info
+
+# Erlang crash dumps
+erl_crash.dump
+
+# Editor
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Framework injection artifacts (never committed)
+.claude/
+.forge-framework-cache/
+review-prompts/
