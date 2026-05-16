@@ -43,8 +43,8 @@ jobs:
       - name: Compile
         run: mix compile --warnings-as-errors
 
-      - name: Tests
-        run: mix test
+      - name: Tests with coverage
+        run: mix test --cover
 
   dialyzer:
     runs-on: ubuntu-latest
